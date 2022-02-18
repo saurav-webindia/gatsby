@@ -1,0 +1,135 @@
+.carousel__banner .carousel-control-next,
+.carousel__banner .carousel-control-prev {
+  display: none !important;
+}
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+.tesinomial__slider {
+  margin-top: 0px;
+}
+
+.footer.container-fluid {
+  margin-bottom: 0px !important;
+  padding: 0px !important;
+}
+
+.footer .bottom {
+  padding: 0px !important;
+}
+
+.align-items--center {
+  margin-top: 5px !important;
+}
+
+.container_iconn {
+  text-align-last: center;
+  display: flex;
+}
+
+/* scroll bar */
+
+/* ::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0.5);
+} */
+
+.list-group.scroll {
+  scrollbar-width: thin;
+}
+/* Works on Chrome, Edge, and Safari */
+.list-group.scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 12px;
+}
+
+.list-group.scroll::-webkit-scrollbar-track {
+  background: lightgrey;
+}
+
+.list-group.scroll::-moz-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.list-group.scroll::-webkit-scrollbar-thumb {
+  background-color: #000;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .testimBox {
+    margin-left: 20px !important;
+    padding: 5px !important;
+  }
+  .testimImg {
+    max-width: 35% !important;
+  }
+
+  .testimonials .swiper-button-next,
+  .testimonials .swiper-button-prev {
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  .menuBtn {
+    top: 25px !important;
+    margin-right: -18px;
+  }
+
+  .menuBtn:hover {
+    /* background: black !important; */
+    cursor: pointer;
+  }
+
+  .menuBtn.menuBtnActive {
+    right: 30px !important;
+  }
+
+  .carousel__banner {
+    margin-top: 92px !important;
+  }
+  .carousel__banner img {
+    height: 240px !important;
+  }
+  .footer .w-100.bottom .col-sm-4 p {
+    padding: 5px !important;
+  }
+  .menuLeftContainer .topQuickLink li a .img-fluid {
+    width: 40px !important;
+  }
+  .menuLeftContainer .topQuickLink li a span {
+    font-size: 13px !important;
+  }
+  .menuContainer ul li i {
+    width: 20px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+  }
+  .container.text-center .row .col-md-3 {
+    margin-top: 20px !important;
+  }
+
+  .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
+  .footerLinks ul li a {
+    margin-left: 20px !important;
+    margin-top: 5px !important;
+  }
+  .testimText {
+    font-size: 13px !important;
+  }
+
+  .testimText h4 {
+    font-size: 20px !important;
+  }
+}
