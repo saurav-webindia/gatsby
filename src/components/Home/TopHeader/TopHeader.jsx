@@ -38,7 +38,7 @@ function TopHeader(props) {
       <div className={scrollposition > scrollTop ? "header" : "header fixed"}>
         <div className={"logo"}>
           <a href="/">
-            <img src="images/logo.png" alt="JGU" />
+            <img src="https://gatsby.gowitharticle.com/images/logo.png" alt="JGU" />
           </a>
         </div>
         <nav className="navi">
